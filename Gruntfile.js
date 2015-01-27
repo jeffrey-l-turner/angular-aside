@@ -105,6 +105,9 @@ module.exports = function (grunt) {
       }
     },
     ngAnnotate: {
+      options: {
+          singleQuotes: true,
+        },
       dist: {
         files: [{
           expand: true,
