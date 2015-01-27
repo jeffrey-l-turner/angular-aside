@@ -8,6 +8,7 @@
  */
 
 angular.module('ngAside', ['ui.bootstrap.modal']);
+
 angular.module('ngAside')
   /**
    * @ngdoc service
