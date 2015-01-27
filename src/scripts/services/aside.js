@@ -31,5 +31,6 @@ angular.module('ngAside')
 
     // create $aside as extended $modal
         $aside = angular.extend({}, $modal, asideFactory);
+
     return $aside;
   });

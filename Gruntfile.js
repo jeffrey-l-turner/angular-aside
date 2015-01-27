@@ -75,6 +75,15 @@ module.exports = function (grunt) {
         '<%= appConfig.app %>/scripts/{,*/}*.js'
       ]
     },
+    eslint: {
+      options: {
+        eslintrc: '.eslint'
+      },
+      all: [
+        'Gruntfile.js',
+        '<%= appConfig.app %>/scripts/{,*/}*.js'
+      ]
+    },
     cssmin: {
       dist: {
         options: {
