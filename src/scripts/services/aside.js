@@ -7,27 +7,29 @@ angular.module('ngAside')
    * @function
    */
   .factory('$aside', function($modal) {
+    'use strict';
     var defaults = this.defaults = {
       placement: 'left'
-    };
+    },
 
-    var asideFactory = {
+       asideFactory = {
       // override open method
       open: function(config) {
-        var options = angular.extend({}, defaults, config);
+        var options = angular.extend({}, defaults, config),
+            vertHoriz;
         // check placement is set correct
-        if(['left', 'right', 'bottom', 'top'].indexOf(options.placement) === -1) {
+        if (['left', 'right', 'bottom', 'top'].indexOf(options.placement) === -1) {
           options.placement = defaults.placement;
         }
-        var vertHoriz = ['left', 'right'].indexOf(options.placement) === -1 ? 'vertical' : 'horizontal';
+        vertHoriz = ['left', 'right'].indexOf(options.placement) === -1 ? 'vertical' : 'horizontal';
         // set aside classes
-        options.windowClass  = 'ng-aside ' + vertHoriz + ' ' + options.placement + (options.windowClass ? ' ' + options.windowClass : '');
-        delete options.placement
+        options.windowClass = 'ng-aside ' + vertHoriz + ' ' + options.placement + (options.windowClass ? ' ' + options.windowClass : '');
+        delete options.placement;
         return $modal.open(options);
       }
-    };
+    },
 
     // create $aside as extended $modal
-    var $aside = angular.extend({}, $modal, asideFactory);
+        $aside = angular.extend({}, $modal, asideFactory);
     return $aside;
   });
