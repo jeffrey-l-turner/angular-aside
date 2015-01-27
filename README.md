@@ -1,9 +1,12 @@
 angular-aside ![bower version](http://img.shields.io/bower/v/angular-aside.svg)
 =============
 
+This is an updated version from the original angular aside in prep for a pull request
+=============
+
 Off canvas side menu to use with ui-bootstrap. Extends ui-bootstrap's $modal provider.
 
-###[Live Demo](http://plnkr.co/edit/G7vMSv?p=preview)
+###[Live Demo](http://plnkr.co/edit/z5VOxO?p=preview)
 
 ##Install
 
