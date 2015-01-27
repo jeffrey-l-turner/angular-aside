@@ -1,5 +1,5 @@
 /*!
- * angular-aside - v1.1.2
+ * angular-aside - v1.1.3-0
  * https://github.com/dbtek/angular-aside
  * 2015-01-27
  * Copyright (c) 2015 İsmail Demirbilek
