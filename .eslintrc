@@ -42,7 +42,7 @@
     },
 
     "globals": {
-      "angular": true,
+      "angular": false,
       "document": true, 
       "sails": true,
       "window": true 
