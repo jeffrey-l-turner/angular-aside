@@ -1,4 +1,6 @@
 'use strict';
+/* eslint-env node, karma */
+/* eslint no-unused-vars:0 */ /* turned off for filepath variable in concat->js->process */
 
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
@@ -21,8 +23,7 @@ module.exports = function (grunt) {
     concat: {
       js: {
         options: {
-          banner: "\n<%= banner %>\n",
-          // remove use strict tags
+          banner: '\n<%= banner %>\n',
           process: function(src, filepath) {
             return src.replace(/(^|\n)[ \t]*('use strict'|"use strict");?\s*/g, '$1');
           },
