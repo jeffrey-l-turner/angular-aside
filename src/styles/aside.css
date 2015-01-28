@@ -87,6 +87,7 @@
 
 /* Vertical */
 
+/*
 .ng-aside.vertical {
   width: 100% !important;
   overflow: hidden;
@@ -97,6 +98,7 @@
   right: 0;
   width: 100% !important;
 }
+    */
 
 .ng-aside.vertical .modal-dialog .modal-content {
   max-height: 400px;
