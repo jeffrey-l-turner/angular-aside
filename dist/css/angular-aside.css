@@ -411,6 +411,7 @@ Copyright (c) 2014 Daniel Eden
   -ms-animation: fadeInBottom 250ms;
 }
 
+/*
 .ng-aside.vertical.bottom .modal-dialog {
   bottom: 0;
 }
@@ -421,4 +422,4 @@ Copyright (c) 2014 Daniel Eden
 
 .ng-aside.vertical .modal-dialog .modal-content {
   width: 100%;
-} 
+}  */
