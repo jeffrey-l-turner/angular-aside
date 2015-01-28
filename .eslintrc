@@ -28,6 +28,7 @@
         "brace-style": 2,
         "camelcase": 0,
         "new-cap": 0,
+        "no-trailing-spaces": "true",
         "no-lonely-if": 2,
         "no-underscore-dangle": 0,
         "space-after-keywords": 2,

@@ -148,6 +148,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'ngdocs',
     'clean:dist',
+    'eslint',
     'concat',
     'ngAnnotate',
     'cssmin',
