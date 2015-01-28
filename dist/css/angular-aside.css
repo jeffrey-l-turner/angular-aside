@@ -368,9 +368,9 @@ Copyright (c) 2014 Daniel Eden
 .ng-aside.vertical .modal-dialog {
   left: 0;
   right: 0;
-  width: 100% !important;
+/*  width: 100% !important; */
 }
-    */
+    
 
 .ng-aside.vertical .modal-dialog .modal-content {
   max-height: 100%;
