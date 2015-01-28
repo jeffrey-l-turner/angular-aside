@@ -1,6 +1,6 @@
 
 /*!
- * angular-aside - v1.1.3-0
+ * angular-aside - v1.2.0
  * https://github.com/jeffrey-l-turner/angular-aside
  * 2015-01-28
  * Copyright (c) 2015 Ismail Demirbile / forked by Jeff Turner
