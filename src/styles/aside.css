@@ -44,7 +44,7 @@
 
 .ng-aside.horizontal .modal-dialog {
   position: absolute;
-  top: 0;
+/*  top: 0; */
   height: 100%;
 }
 
@@ -64,9 +64,10 @@
   -ms-animation: fadeInLeft 400ms;
 }
 
+/*
 .ng-aside.horizontal.left .modal-dialog {
   left: 0;
-}
+} */
 
 .ng-aside.horizontal.right .modal-dialog {
   animation: fadeOutRight 400ms;
@@ -81,9 +82,10 @@
   -webkit-animation: fadeInRight 250ms;
 }
 
+/*
 .ng-aside.horizontal.right .modal-dialog {
   right: 0;
-}
+} */
 
 /* Vertical */
 
@@ -101,7 +103,7 @@
     */
 
 .ng-aside.vertical .modal-dialog .modal-content {
-  max-height: 400px;
+  max-height: 100%;
 }
 
 .ng-aside.vertical.top .modal-dialog {
@@ -139,6 +141,7 @@
   -ms-animation: fadeInBottom 250ms;
 }
 
+/*
 .ng-aside.vertical.bottom .modal-dialog {
   bottom: 0;
 }
@@ -149,4 +152,4 @@
 
 .ng-aside.vertical .modal-dialog .modal-content {
   width: 100%;
-}
+} */
