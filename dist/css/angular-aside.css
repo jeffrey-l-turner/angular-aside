@@ -353,9 +353,10 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation: fadeInRight 250ms;
 }
 
+/*
 .ng-aside.horizontal.right .modal-dialog {
   right: 0;
-} 
+} */
 
 /* Vertical */
 
@@ -365,12 +366,12 @@ Copyright (c) 2014 Daniel Eden
   overflow: hidden;
 }
 
-/*
+
 .ng-aside.vertical .modal-dialog {
   left: 0;
   right: 0;
-  width: 100% !important; 
-}*/
+/*  width: 100% !important;  */
+}
 
 .ng-aside.vertical .modal-dialog .modal-content {
   max-height: 100%;
