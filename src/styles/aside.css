@@ -140,6 +140,7 @@
   -ms-animation: fadeInBottom 250ms;
 }
 
+/*
 .ng-aside.vertical.bottom .modal-dialog {
   bottom: 0;
 }
@@ -150,4 +151,4 @@
 
 .ng-aside.vertical .modal-dialog .modal-content {
   width: 100%;
-} 
+}  */
