@@ -315,7 +315,7 @@ Copyright (c) 2014 Daniel Eden
 
 .ng-aside.horizontal .modal-dialog {
   position: absolute;
-  top: 0; 
+  top: 0;
   height: 100%;
 }
 
@@ -335,10 +335,9 @@ Copyright (c) 2014 Daniel Eden
   -ms-animation: fadeInLeft 400ms;
 }
 
-
 .ng-aside.horizontal.left .modal-dialog {
   left: 0;
-} 
+}
 
 .ng-aside.horizontal.right .modal-dialog {
   animation: fadeOutRight 400ms;
@@ -353,28 +352,25 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation: fadeInRight 250ms;
 }
 
-/*
 .ng-aside.horizontal.right .modal-dialog {
   right: 0;
-} */
+}
 
 /* Vertical */
 
-
 .ng-aside.vertical {
-/*  width: 100% !important; */
+  /* width: 100% !important; */
   overflow: hidden;
 }
-
 
 .ng-aside.vertical .modal-dialog {
   left: 0;
   right: 0;
-/*  width: 100% !important;  */
+/*  width: 100% !important; */
 }
 
 .ng-aside.vertical .modal-dialog .modal-content {
-  max-height: 100%;
+  max-height: 400px;
 }
 
 .ng-aside.vertical.top .modal-dialog {
@@ -412,7 +408,6 @@ Copyright (c) 2014 Daniel Eden
   -ms-animation: fadeInBottom 250ms;
 }
 
-/*
 .ng-aside.vertical.bottom .modal-dialog {
   bottom: 0;
 }
@@ -423,4 +418,4 @@ Copyright (c) 2014 Daniel Eden
 
 .ng-aside.vertical .modal-dialog .modal-content {
   width: 100%;
-}  */
+}
