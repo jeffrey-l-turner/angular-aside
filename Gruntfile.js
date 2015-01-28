@@ -137,6 +137,8 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('eslint-grunt');
+
   grunt.registerTask('test', [
     'clean:server',
     'connect:test',
