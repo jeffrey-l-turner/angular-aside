@@ -1,6 +1,8 @@
 {
     "env": {
-        "node": true
+        "node": true,
+        "angular": true,
+        "browser": true
     },
 
     "rules": {
